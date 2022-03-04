@@ -1,5 +1,7 @@
 # CFELNet.pytorch
+
 ## The code of Clip-aware Expressive Feature Learning for Video-based Facial Expression Recognition” in the revision.
+
 ## Requirement
 torch==1.7.1
 
@@ -26,3 +28,5 @@ Pillow==8.3.2
 * ``` --batch_size ```: input batch size
 * etc.
 
+## pre-trained
+You can get pre-trained models from https://pan.baidu.com/s/1xYCvyVOTfxZAz1b0C76iuQ (Extraction Code：6q72) 
