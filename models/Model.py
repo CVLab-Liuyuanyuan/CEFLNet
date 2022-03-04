@@ -125,10 +125,10 @@ class ResNet_AT(nn.Module):
         self.temp_attn = Temporal_attn(clips,d_model)
         self.maxpool2 = nn.AdaptiveMaxPool1d(1)
 
-        self.classifier = nn.Sequential(*[nn.Linear(512, 128), nn.ReLU(True),
-                                          nn.Linear(128, 64), nn.ReLU(True),
+        self.classifier = nn.Sequential(*[nn.Linear(512, 256), nn.ReLU(True),
+                                          nn.Linear(256, 128), nn.ReLU(True),
                                          nn.Dropout(0.4),
-                                         nn.Sequential(nn.Linear(64, 6))])
+                                         nn.Sequential(nn.Linear(128, 7))])
     
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
