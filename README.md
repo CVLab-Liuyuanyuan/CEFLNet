@@ -1,5 +1,5 @@
 # CFELNet.pytorch
- 
+## The code of Clip-aware Expressive Feature Learning for Video-based Facial Expression Recognition” in the revision.
 ## Requirement
 torch==1.7.1
 
