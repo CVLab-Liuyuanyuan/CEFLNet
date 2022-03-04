@@ -14,7 +14,7 @@ numpy==1.19.5
 Pillow==8.3.2
 
 
-#### Options
+## Options
 * ``` --lr ```: initial learning rate
 * ``` --epochs ```: number of total epochs to run
 * ``` --momentum ```: momentum
