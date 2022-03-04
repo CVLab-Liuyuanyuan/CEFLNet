@@ -19,9 +19,9 @@ cudnn.benchmark = False            # if benchmark=True, deterministic will be Fa
 cudnn.deterministic = True
 
 seed = 3456
-torch.manual_seed(seed)            # 为CPU设置随机种子
-torch.cuda.manual_seed(seed)       # 为当前GPU设置随机种子
-torch.cuda.manual_seed_all(seed)   # 为所有GPU设置随机种子
+torch.manual_seed(seed)            
+torch.cuda.manual_seed(seed)       
+torch.cuda.manual_seed_all(seed)  
 random.seed(seed)
 
 
