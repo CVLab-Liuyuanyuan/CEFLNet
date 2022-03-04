@@ -19,7 +19,7 @@ cate2label = {'MMI':{0: 'Angry', 1: 'Disgust', 2: 'Fear', 3: 'Happy', 4: 'Sad', 
                         'Angry': 0,'Disgust': 1,'Fear': 2,'Happy': 3,'Neutral': 4,'Sad': 5,'Surprise': 6}
               }
 
-cate2label = cate2label['BU3D']
+cate2label = cate2label['AFEW']
 
 
 def LoadNewDataset(root_train, list_train, batchsize, root_eval, list_eval):
