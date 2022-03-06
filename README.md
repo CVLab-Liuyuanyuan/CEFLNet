@@ -2,7 +2,7 @@
 
 ## The code of Clip-aware Expressive Feature Learning for Video-based Facial Expression Recognition.
 
-## Requirement
+## Requirements
 torch==1.7.1
 
 tensorboardX==2.4.1
