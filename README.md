@@ -28,6 +28,12 @@ Pillow==8.3.2
 * ``` --batch_size ```: input batch size
 * etc.
 
-## pre-trained
-You can get pre-trained models from https://pan.baidu.com/s/1xYCvyVOTfxZAz1b0C76iuQ (Extraction Code：6q72) 
+## pre-trained model and Validated model
+You can get the pre-trained model and validated model from https://pan.baidu.com/s/1xYCvyVOTfxZAz1b0C76iuQ (Extraction Code：6q72) 
+
+To facilitate validation, we provide the test model on the AFEW dataset：https://pan.baidu.com/s/1Cm9pTiBs5-fivDZP8mLBDA (Extraction Code：8lq5) 
+
+
+## Dataset
+You can get AFEW dataset at https://sites.google.com/site/emotiwchallenge/
 
