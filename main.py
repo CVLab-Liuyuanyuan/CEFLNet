@@ -15,7 +15,7 @@ import pytorch_warmup as warmup
 import random
 
 from torch.backends import cudnn
-cudnn.benchmark = False            # if benchmark=True, deterministic will be False
+cudnn.benchmark = False              # if benchmark=True, deterministic will be False
 cudnn.deterministic = True
 
 seed = 3456
