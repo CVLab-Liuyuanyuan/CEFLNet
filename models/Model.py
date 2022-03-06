@@ -121,6 +121,7 @@ class ResNet_AT(nn.Module):
         self.d_model = d_model
         self.clips = clips
         self.fc = nn.Linear(1024, 512)
+        self.fc2 = nn.Linear(2048,512)
 
         self.temp_attn = Temporal_attn(clips,d_model)
         self.maxpool2 = nn.AdaptiveMaxPool1d(1)
